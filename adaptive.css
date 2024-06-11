@@ -1,0 +1,117 @@
+@media (max-width: 1300px) {
+    .header{
+        padding: 50px 50px 0 50px;
+    }
+    .contenttwo img{
+        width: 1000px;
+    }
+    .contentthree{
+        justify-content: space-between;
+    }
+    .leftcontent{
+        margin-left: 50px;
+    }
+    .rocket img{
+        width: 450px;
+    }
+}
+@media (max-width: 1113px) {
+    .contenttwo img{
+        width: 600px;
+    }
+    .contentone h1{
+        font-size: 45px;
+    }
+    .contentone p{
+        font-size: 14px;
+    }
+    .rocket img {
+        width: 250px;
+        margin-right: 50px;
+    }
+    .contentthree h2{
+        font-size: 18px;
+    }
+    .about{
+        font-size: 14px;
+    }
+    .itemlast p{
+        font-size: 14px;
+    }
+    .header div:nth-child(2){
+        display: none;
+    }
+    .header div:nth-child(3) {
+        display: none;
+    }
+    .header div:first-child{
+        display: flex;
+        align-items: center;
+    }
+    .bgmenu{
+        display: block;
+    }
+}
+@media (max-width: 859px) {
+    .about{
+        margin-bottom: 100px;
+    }
+    .itemlast p{
+        max-width: 320px;
+        font-size: 14px;
+    }
+    .leftcontent{
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 690px) {
+    .contentthree{
+        flex-direction: column;
+        text-align: center;
+    }
+    .rocket img{
+        margin: 0;
+    }
+    .about{
+        text-align: start;
+    }
+    .leftcontent{
+        margin-left: 0;
+    }
+    .contenttwo img{
+        width: 350px;
+    }
+}
+@media (max-width: 550px) {
+    .footer div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        margin: 45px 45px;
+        row-gap: 25px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 370px) {
+    .contenttwo img{
+        width: 200px;
+    }
+    .contentone h1{
+        font-size: 30px;
+    }
+    .contentone p{
+        font-size: 12px;
+        max-width: 220px;
+    }
+    .leftcontent{
+        max-width: 220px;
+    }
+    .rocket img{
+        width: 220px;
+    }
+    .footer div:nth-child(4) button{
+        width: 220px;
+    }
+    .header{
+        padding: 40px 20px 0 20px;
+    }
+}
